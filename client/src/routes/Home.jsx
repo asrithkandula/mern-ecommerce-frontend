@@ -11,7 +11,7 @@ const Home = () => {
     TabTitle("Home - Shema");
 
     useEffect(() => {
-        axios.get("https://ecommercebackend-7icf.onrender.com/api/items")
+        axios.get("https://ecommercebackend-owes.onrender.com/api/items")
             .then(res => setFeaturedItems(res.data))
             .catch(err => console.log(err))
 
